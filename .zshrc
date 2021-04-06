@@ -30,3 +30,8 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+
+#rosetta aliasing for homebrew on M1 mac
+
+alias brew='arch -x86_64 /usr/local/bin/brew'
